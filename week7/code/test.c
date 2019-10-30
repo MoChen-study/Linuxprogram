@@ -3,7 +3,8 @@ int main(int argc,char** argv)
 {
 	//int i=0;
 	printf("hello");
-	fclose(stdout);
+	//fclose(stdout);
+	fflush(stdout);
 	/*while(i++<1020)
 	printf("a");*/
 	while(1);
